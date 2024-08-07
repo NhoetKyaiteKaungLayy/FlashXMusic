@@ -148,11 +148,10 @@ async def greet_new_member(_, member: ChatMemberUpdated):
 **ʜᴇʏ {user.mention} ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ {member.chat.title} ! 
 ✧ ᴜsᴇʀ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ✧**
 ━━━━━━━━━━━━━━━━━━━━━
-**✧ ɴᴀᴍᴇ ๏** {user.mention}
-**✧ ɪᴅ ๏** `{user.id}`
-**✧ ᴜ_ɴᴀᴍᴇ ๏** @{user.username}
-**✧ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs ๏** {count}
-**✧ ᴊᴏɪɴɪɴɢ ᴅᴀᴛᴇ ๏** {DATE}
+**๏ ɴᴀᴍᴇ ๏** {user.mention}
+**๏ ɪᴅ ๏** `{user.id}`
+**๏ ᴜ_ɴᴀᴍᴇ ๏** @{user.username}
+**๏ ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs ๏** {count}
 ━━━━━━━━━━━━━━━━━━━━━
 """,
                 reply_markup=InlineKeyboardMarkup(
